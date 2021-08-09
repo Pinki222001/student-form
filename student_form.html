@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML FORMS</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            width: 520px;
+            height: 450px;
+            margin: auto;
+            background-color: lightgray;
+        }
+        h1{
+            margin: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Data Entry Form</h1><br>
+    <div class="container">
+    <form action="">
+      <br> <div>Student Name: <input type="text"></div><br>
+       <div> Email: <input type="email"></div><br>
+       <div> Date: <input type="date" name="date"></div><br>
+       <div>Gender: Boys: <input type="radio" name="gender"> 
+        Girls: <input type="radio" name="gender"></div><br>
+       <div>
+           <label for="branch">Branch : </label>
+                    CSE: <input type="radio" name="choice" id="branch"> 
+                    EE: <input type="radio" name="choice" id="branch"> 
+                    ME: <input type="radio" name="choice" id="branch">
+                    IT: <input type="radio" name="choice" id="branch"> 
+                    Civil E. : <input type="radio" name="choice" id="branch">
+       </div><br>
+       <div>
+        <label for="subject">Subject : </label>
+                 physics: <input type="checkbox" name="mycheckbox" id="subject"> 
+                 Mathsmatics: <input type="checkbox" name="mycheckbox" id="subject"> 
+                 Chemistry: <input type="checkbox" name="mycheckbox" id="subject">
+                 English: <input type="checkbox" name="mycheckbox" id="subject"> 
+                 Hindi: <input type="checkbox" name="mycheckbox" id="subject">
+    </div><br>
+    <div> City / Town: <input type="text" name="city"></div><br>
+    Comments : <br><textarea name="mytext"></textarea><br><br>
+    <input type="submit" name="submit now">
+    <input type="reset" name="reset now">
+    </form>
+    </div>
+</body>
+</html>
